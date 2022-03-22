@@ -36,7 +36,7 @@ h1 {
 
 h3 {
    font-size: 1.4em;
-   color: #bbb;
+   color: #666;
    margin:0;
 }
 
@@ -124,13 +124,14 @@ p {
   width: 32%;
   min-width: 220px;
   margin: 5px; 
-  color: #fff;
-  background-color: #777;
+  color: #333;
+  background-color: rgba(140, 125, 160, 0.05);
   padding: 1em;
   border-radius: 3px;
   line-height: 2em;
   letter-spacing: 1px;
 }
+
 
 .contact {
    margin: 0 auto;
@@ -154,9 +155,9 @@ p {
 
 .linkButton {
    display: inline-block;
-   color: #fff;
-   background: rgb(223,80,182);
-   background: linear-gradient(90deg, rgba(223,80,182,1) 80%, rgba(4,135,255,1) 120%); 
+   color: #333;
+   /* background: rgb(223,80,182);
+   background: linear-gradient(90deg, rgba(223,80,182,1) 80%, rgba(4,135,255,1) 120%);  */
    width: 310px;
    text-decoration: none;
    padding: 25px;
@@ -167,12 +168,10 @@ p {
    margin: 0 auto;
    margin-bottom: 25px;
    display: block;
-   opacity: 0.8;
 }
 
 .linkButton:hover {
-   color: #eff;
-   opacity: 1;
+   color:rgb(223,80,182);
 }
 
 .emailButton {
