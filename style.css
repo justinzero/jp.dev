@@ -51,7 +51,7 @@ a:hover {
 
 .bannerImg {
    background-color: rgb(4,135,255);
-   min-height: 600px;
+   min-height: 300px;
    background-image: url("../images/hero.webp");
    background-position: center;
    background-repeat: no-repeat;
@@ -125,7 +125,7 @@ p {
   min-width: 220px;
   margin: 5px; 
   color: #fff;
-  background-color: #444;
+  background-color: #777;
   padding: 1em;
   border-radius: 3px;
   line-height: 2em;
@@ -150,6 +150,29 @@ p {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
+}
+
+.linkButton {
+   display: inline-block;
+   color: #fff;
+   background: rgb(223,80,182);
+   background: linear-gradient(90deg, rgba(223,80,182,1) 80%, rgba(4,135,255,1) 120%); 
+   width: 310px;
+   text-decoration: none;
+   padding: 25px;
+   border: 4px solid #494949 !important;
+   transition: all 0.7s;
+   font-weight: bold;
+   text-align: center;
+   margin: 0 auto;
+   margin-bottom: 25px;
+   display: block;
+   opacity: 0.8;
+}
+
+.linkButton:hover {
+   color: #eff;
+   opacity: 1;
 }
 
 .emailButton {
